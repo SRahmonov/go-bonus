@@ -16,3 +16,4 @@ func amountOfBonus(sales []int) int {
 	}
 	return sumOfBonus
 }
+
