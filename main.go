@@ -11,9 +11,10 @@ func amountOfBonus(sales []int) int {
 	for _, sale := range sales {
 		if sale > minAmountBonus {
 			result := (sale - minAmountBonus) * bonusPercent / hundredPercent
-			sumOfBonus = sumOfBonus + result
+			sumOfBonus += result
 		}
 	}
 	return sumOfBonus
 }
+
 
